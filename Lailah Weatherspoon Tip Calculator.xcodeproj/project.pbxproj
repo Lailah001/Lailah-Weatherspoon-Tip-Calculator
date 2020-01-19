@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DAD719C23D3F28000C07EEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD719B23D3F28000C07EEC /* AppDelegate.swift */; };
+		0DAD719E23D3F28000C07EEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD719D23D3F28000C07EEC /* SceneDelegate.swift */; };
+		0DAD71A023D3F28000C07EEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD719F23D3F28000C07EEC /* ViewController.swift */; };
+		0DAD71A323D3F28000C07EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD71A123D3F28000C07EEC /* Main.storyboard */; };
+		0DAD71A523D3F28400C07EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD71A423D3F28400C07EEC /* Assets.xcassets */; };
+		0DAD71A823D3F28400C07EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAD71A623D3F28400C07EEC /* LaunchScreen.storyboard */; };
+		0DAD71B323D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD71B223D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorTests.swift */; };
+		0DAD71BE23D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAD71BD23D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DAD71AF23D3F28500C07EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DAD719023D3F28000C07EEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DAD719723D3F28000C07EEC;
+			remoteInfo = "Lailah Weatherspoon Tip Calculator";
+		};
+		0DAD71BA23D3F28500C07EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DAD719023D3F28000C07EEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DAD719723D3F28000C07EEC;
+			remoteInfo = "Lailah Weatherspoon Tip Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DAD719823D3F28000C07EEC /* Lailah Weatherspoon Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lailah Weatherspoon Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAD719B23D3F28000C07EEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DAD719D23D3F28000C07EEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0DAD719F23D3F28000C07EEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DAD71A223D3F28000C07EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DAD71A423D3F28400C07EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DAD71A723D3F28400C07EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DAD71A923D3F28400C07EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAD71AE23D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lailah Weatherspoon Tip CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAD71B223D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lailah_Weatherspoon_Tip_CalculatorTests.swift; sourceTree = "<group>"; };
+		0DAD71B423D3F28500C07EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAD71B923D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lailah Weatherspoon Tip CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAD71BD23D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lailah_Weatherspoon_Tip_CalculatorUITests.swift; sourceTree = "<group>"; };
+		0DAD71BF23D3F28500C07EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DAD719523D3F28000C07EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD71AB23D3F28500C07EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD71B623D3F28500C07EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DAD718F23D3F28000C07EEC = {
+			isa = PBXGroup;
+			children = (
+				0DAD719A23D3F28000C07EEC /* Lailah Weatherspoon Tip Calculator */,
+				0DAD71B123D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorTests */,
+				0DAD71BC23D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorUITests */,
+				0DAD719923D3F28000C07EEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DAD719923D3F28000C07EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD719823D3F28000C07EEC /* Lailah Weatherspoon Tip Calculator.app */,
+				0DAD71AE23D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorTests.xctest */,
+				0DAD71B923D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DAD719A23D3F28000C07EEC /* Lailah Weatherspoon Tip Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD719B23D3F28000C07EEC /* AppDelegate.swift */,
+				0DAD719D23D3F28000C07EEC /* SceneDelegate.swift */,
+				0DAD719F23D3F28000C07EEC /* ViewController.swift */,
+				0DAD71A123D3F28000C07EEC /* Main.storyboard */,
+				0DAD71A423D3F28400C07EEC /* Assets.xcassets */,
+				0DAD71A623D3F28400C07EEC /* LaunchScreen.storyboard */,
+				0DAD71A923D3F28400C07EEC /* Info.plist */,
+			);
+			path = "Lailah Weatherspoon Tip Calculator";
+			sourceTree = "<group>";
+		};
+		0DAD71B123D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD71B223D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorTests.swift */,
+				0DAD71B423D3F28500C07EEC /* Info.plist */,
+			);
+			path = "Lailah Weatherspoon Tip CalculatorTests";
+			sourceTree = "<group>";
+		};
+		0DAD71BC23D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD71BD23D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorUITests.swift */,
+				0DAD71BF23D3F28500C07EEC /* Info.plist */,
+			);
+			path = "Lailah Weatherspoon Tip CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DAD719723D3F28000C07EEC /* Lailah Weatherspoon Tip Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAD71C223D3F28500C07EEC /* Build configuration list for PBXNativeTarget "Lailah Weatherspoon Tip Calculator" */;
+			buildPhases = (
+				0DAD719423D3F28000C07EEC /* Sources */,
+				0DAD719523D3F28000C07EEC /* Frameworks */,
+				0DAD719623D3F28000C07EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lailah Weatherspoon Tip Calculator";
+			productName = "Lailah Weatherspoon Tip Calculator";
+			productReference = 0DAD719823D3F28000C07EEC /* Lailah Weatherspoon Tip Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DAD71AD23D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAD71C523D3F28500C07EEC /* Build configuration list for PBXNativeTarget "Lailah Weatherspoon Tip CalculatorTests" */;
+			buildPhases = (
+				0DAD71AA23D3F28500C07EEC /* Sources */,
+				0DAD71AB23D3F28500C07EEC /* Frameworks */,
+				0DAD71AC23D3F28500C07EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DAD71B023D3F28500C07EEC /* PBXTargetDependency */,
+			);
+			name = "Lailah Weatherspoon Tip CalculatorTests";
+			productName = "Lailah Weatherspoon Tip CalculatorTests";
+			productReference = 0DAD71AE23D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DAD71B823D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAD71C823D3F28500C07EEC /* Build configuration list for PBXNativeTarget "Lailah Weatherspoon Tip CalculatorUITests" */;
+			buildPhases = (
+				0DAD71B523D3F28500C07EEC /* Sources */,
+				0DAD71B623D3F28500C07EEC /* Frameworks */,
+				0DAD71B723D3F28500C07EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DAD71BB23D3F28500C07EEC /* PBXTargetDependency */,
+			);
+			name = "Lailah Weatherspoon Tip CalculatorUITests";
+			productName = "Lailah Weatherspoon Tip CalculatorUITests";
+			productReference = 0DAD71B923D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DAD719023D3F28000C07EEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = codepath;
+				TargetAttributes = {
+					0DAD719723D3F28000C07EEC = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					0DAD71AD23D3F28500C07EEC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 0DAD719723D3F28000C07EEC;
+					};
+					0DAD71B823D3F28500C07EEC = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 0DAD719723D3F28000C07EEC;
+					};
+				};
+			};
+			buildConfigurationList = 0DAD719323D3F28000C07EEC /* Build configuration list for PBXProject "Lailah Weatherspoon Tip Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DAD718F23D3F28000C07EEC;
+			productRefGroup = 0DAD719923D3F28000C07EEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DAD719723D3F28000C07EEC /* Lailah Weatherspoon Tip Calculator */,
+				0DAD71AD23D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorTests */,
+				0DAD71B823D3F28500C07EEC /* Lailah Weatherspoon Tip CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DAD719623D3F28000C07EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD71A823D3F28400C07EEC /* LaunchScreen.storyboard in Resources */,
+				0DAD71A523D3F28400C07EEC /* Assets.xcassets in Resources */,
+				0DAD71A323D3F28000C07EEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD71AC23D3F28500C07EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD71B723D3F28500C07EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DAD719423D3F28000C07EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD71A023D3F28000C07EEC /* ViewController.swift in Sources */,
+				0DAD719C23D3F28000C07EEC /* AppDelegate.swift in Sources */,
+				0DAD719E23D3F28000C07EEC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD71AA23D3F28500C07EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD71B323D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DAD71B523D3F28500C07EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DAD71BE23D3F28500C07EEC /* Lailah_Weatherspoon_Tip_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DAD71B023D3F28500C07EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DAD719723D3F28000C07EEC /* Lailah Weatherspoon Tip Calculator */;
+			targetProxy = 0DAD71AF23D3F28500C07EEC /* PBXContainerItemProxy */;
+		};
+		0DAD71BB23D3F28500C07EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DAD719723D3F28000C07EEC /* Lailah Weatherspoon Tip Calculator */;
+			targetProxy = 0DAD71BA23D3F28500C07EEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DAD71A123D3F28000C07EEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DAD71A223D3F28000C07EEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DAD71A623D3F28400C07EEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DAD71A723D3F28400C07EEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DAD71C023D3F28500C07EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DAD71C123D3F28500C07EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DAD71C323D3F28500C07EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lailah Weatherspoon Tip Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Lailah-Weatherspoon-Tip-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DAD71C423D3F28500C07EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lailah Weatherspoon Tip Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Lailah-Weatherspoon-Tip-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DAD71C623D3F28500C07EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lailah Weatherspoon Tip CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Lailah-Weatherspoon-Tip-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lailah Weatherspoon Tip Calculator.app/Lailah Weatherspoon Tip Calculator";
+			};
+			name = Debug;
+		};
+		0DAD71C723D3F28500C07EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lailah Weatherspoon Tip CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Lailah-Weatherspoon-Tip-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lailah Weatherspoon Tip Calculator.app/Lailah Weatherspoon Tip Calculator";
+			};
+			name = Release;
+		};
+		0DAD71C923D3F28500C07EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lailah Weatherspoon Tip CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Lailah-Weatherspoon-Tip-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lailah Weatherspoon Tip Calculator";
+			};
+			name = Debug;
+		};
+		0DAD71CA23D3F28500C07EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lailah Weatherspoon Tip CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Lailah-Weatherspoon-Tip-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lailah Weatherspoon Tip Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DAD719323D3F28000C07EEC /* Build configuration list for PBXProject "Lailah Weatherspoon Tip Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD71C023D3F28500C07EEC /* Debug */,
+				0DAD71C123D3F28500C07EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAD71C223D3F28500C07EEC /* Build configuration list for PBXNativeTarget "Lailah Weatherspoon Tip Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD71C323D3F28500C07EEC /* Debug */,
+				0DAD71C423D3F28500C07EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAD71C523D3F28500C07EEC /* Build configuration list for PBXNativeTarget "Lailah Weatherspoon Tip CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD71C623D3F28500C07EEC /* Debug */,
+				0DAD71C723D3F28500C07EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DAD71C823D3F28500C07EEC /* Build configuration list for PBXNativeTarget "Lailah Weatherspoon Tip CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DAD71C923D3F28500C07EEC /* Debug */,
+				0DAD71CA23D3F28500C07EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DAD719023D3F28000C07EEC /* Project object */;
+}
